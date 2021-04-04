@@ -11,10 +11,8 @@ class LoginPOM:
     username=data['username']
     passward=data['passward']
 
-    def login(self):
-        driver = config.setup()
-        driver.get(self.url)
-        driver.maximize_window()
+    def login(self,driver):
+
         driver.find_element_by_css_selector(self.username_css).click()
         driver.find_element_by_css_selector(self.username_css).clear()
         driver.find_element_by_css_selector(self.username_css).send_keys(self.username)

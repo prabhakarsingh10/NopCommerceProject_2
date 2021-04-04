@@ -4,5 +4,8 @@ from selenium import webdriver
 
 class Test_Login:
     def test_login(self):
+        driver = config.setup()
+        driver.get(LoginPOM.url)
+        driver.maximize_window()
         ob=LoginPOM()
-        ob.login()
+        ob.login(driver)
