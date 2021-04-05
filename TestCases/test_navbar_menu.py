@@ -11,6 +11,7 @@ class TestNavbarMenu:
         lg=LoginPOM()
         lg.login(driver)
         #1
+        time.sleep(1)
         driver.find_element_by_xpath(NavbarMenu.catalog_xpath).click()
         time.sleep(1)
         driver.find_element_by_xpath(NavbarMenu.catalog_xpath).click()
@@ -54,6 +55,8 @@ class TestNavbarMenu:
         driver.find_element_by_xpath(NavbarMenu.help_xpath).click()
         time.sleep(1)
         driver.find_element_by_xpath(NavbarMenu.help_xpath).click()
+        driver.close()
+        print("Driver Closed")
 
 
 
