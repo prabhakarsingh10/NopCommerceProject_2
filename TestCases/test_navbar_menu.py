@@ -55,7 +55,7 @@ class TestNavbarMenu:
         driver.find_element_by_xpath(NavbarMenu.help_xpath).click()
         time.sleep(1)
         driver.find_element_by_xpath(NavbarMenu.help_xpath).click()
-        driver.close()
+        driver.close() 
         print("Driver Closed")
 
 

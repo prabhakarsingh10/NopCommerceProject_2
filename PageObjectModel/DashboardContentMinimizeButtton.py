@@ -1,0 +1,11 @@
+class DashboardMinimizeBitton:
+    nopcommercenews_xpath="//div[@id='nopcommerce-news-box']//button[@type='button']"
+    commonstatistics_xpath="//div[@id='nopcommerce-common-statistics-card']//button[@type='button']"
+    orders_xpath="//div[@id='order-statistics-card']//button[@type='button']"
+    newcustomers="//div[@id='customer-statistics-card']//button[@class='btn btn-tool margin-l-10']"
+    ordertotals_xpath="//div[@id='order-average-report-card']//button[@class='btn btn-tool']"
+    incompleteorders_xpath="//div[@id='order-incomplete-report-card']//button[@class='btn btn-tool']"
+    latestorders_xpaht="//div[@id='latest-orders-card']//button[@class='btn btn-tool']"
+    popularsearchkeywords_xpath="//div[@id='popular-search-terms-card']//button[@class='btn btn-tool']"
+    bestsellerbyquality_xpath="//div[@id='bestsellers-report-quantity-card']//button[@class='btn btn-tool']"
+    bestsellerbtamount_xpath="//div[@id='bestsellers-report-amount-card']//button[@class='btn btn-tool']"
